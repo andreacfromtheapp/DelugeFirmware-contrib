@@ -1,0 +1,7 @@
+[build]
+command = "pnpm build"
+base = "website"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "22"
